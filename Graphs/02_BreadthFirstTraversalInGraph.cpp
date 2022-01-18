@@ -1,5 +1,5 @@
 // Breadth First Traversal of a Graph in C++
-vector<int>bfsOfGraph(int v,vector<int> adj[]) {
+vector<int> bfsOfGraph(int v,vector<int> adj[]) {
     vector<int> bfs;
     vector<int> visited(v+1,0);    // visited[i] is true if vertex i is visited
 
