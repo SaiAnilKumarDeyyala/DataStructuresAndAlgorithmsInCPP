@@ -1,5 +1,5 @@
 // Depth First Traversal of a Graph in C++
-void dfs(int node,vector<int> & vis, vector<int> adj[], vector<int> &dfsContainer) {
+void dfs(int node,vector<int> &vis, vector<int> adj[], vector<int> &dfsContainer) {
     vis[node] = 1;       
     dfsContainer.push_back(node);    
     for(auto it: adj[node]) {          // Iterate through all the adjacent vertices of node
